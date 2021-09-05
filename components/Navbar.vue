@@ -33,7 +33,7 @@ export default {
     }
   },
   methods: {
-    logout({commit}) {
+    logout() {
       this.$store.dispatch('logout')
       this.$router.push('/login')
     }
@@ -42,4 +42,5 @@ export default {
 </script>
 
 <style scoped>
+
 </style>

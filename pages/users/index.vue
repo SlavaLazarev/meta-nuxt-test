@@ -9,7 +9,6 @@
         class="list-group-item">
         {{ user.login }}
       </li>
-      <i class="bi bi-telephone"></i>
     </ul>
   </div>
 </template>
